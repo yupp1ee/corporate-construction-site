@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>стройка</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Строительная компания | Ремонт под ключ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!-- Прелоадер -->
+<div class="preloader">
+  <div class="loader"></div>
+</div>
+
+<!-- Шапка сайта -->
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="index.html" class="logo">
+        <p>СамараСтрой</p>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="flat.html">Квартиры</a></li>
+          <li><a href="office.html">Офисы</a></li>
+          <li><a href="house.html">Дома</a></li>
+          <li><a href="commercial.html">Коммерция</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <!-- Мобильное нижнее меню -->
+      <div class="mobile-bottom-menu">
+        <a href="flat.html" class="menu-item">
+          <img src="img/icon-apartment.png" alt="Квартиры" class="menu-icon">
+          <span class="menu-text">Квартиры</span>
+        </a>
+        <a href="office.html" class="menu-item">
+          <img src="img/icon-office.png" alt="Офисы" class="menu-icon">
+          <span class="menu-text">Офисы</span>
+        </a>
+        <a href="house.html" class="menu-item">
+          <img src="img/homme31.png" alt="Дома" class="menu-icon">
+          <span class="menu-text">Дома</span>
+        </a>
+        <a href="commercial.html" class="menu-item">
+          <img src="img/icon-cafe.png" alt="Коммерция" class="menu-icon">
+          <span class="menu-text">Коммерция</span>
+        </a>
+        <a href="#contacts" class="menu-item">
+          <img src="img/contact.png" alt="Контакты" class="menu-icon">
+          <span class="menu-text">Контакты</span>
+        </a>
+      </div>
+
+      <div class="header__phone">
+        <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+        <button class="btn callback-btn">Обратный звонок</button>
+      </div>
+
+      <button class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero-блок с слайдером -->
+<section class="hero">
+  <div class="hero-slider">
+    <div class="slide active" style="background-image: url('img/home2.jpg');">
+      <div class="container">
+        <h1 class="hero__title">Мы строим — вы живёте!</h1>
+        <p class="hero__subtitle">Качественный ремонт под ключ с гарантией 5 лет</p>
+        <button class="btn btn-large calculate-btn">Рассчитать стоимость ремонта</button>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('img/home2.png');">
+      <div class="container">
+        <h1 class="hero__title">Профессиональный подход</h1>
+        <p class="hero__subtitle">Индивидуальные решения для каждого клиента</p>
+        <button class="btn btn-large calculate-btn">Рассчитать стоимость ремонта</button>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('img/home3.jpg');">
+      <div class="container">
+        <h1 class="hero__title">Сроки - наша сильная сторона</h1>
+        <p class="hero__subtitle">Соблюдаем сроки или возвращаем деньги</p>
+        <button class="btn btn-large calculate-btn">Рассчитать стоимость ремонта</button>
+      </div>
+    </div>
+  </div>
+  <div class="slider-dots"></div>
+</section>
+
+<!-- Навигатор направлений -->
+<section class="directions">
+  <div class="container">
+    <h2 class="section-title">Направления работы</h2>
+    <div class="directions__grid">
+      <a href="apartment.html" class="direction-card">
+        <div class="direction-card__icon">
+          <img src="img/icon-apartment.png" alt="Квартира">
+        </div>
+        <h3 class="direction-card__title">Квартира</h3>
+        <p class="direction-card__desc">Ремонт квартир любой сложности под ключ</p>
+      </a>
+      <a href="office.html" class="direction-card">
+        <div class="direction-card__icon">
+          <img src="img/icon-office.png" alt="Офис">
+        </div>
+        <h3 class="direction-card__title">Офис</h3>
+        <p class="direction-card__desc">Создание комфортного рабочего пространства</p>
+      </a>
+      <a href="house.html" class="direction-card">
+        <div class="direction-card__icon">
+          <img src="img/icon-house.png" alt="Дом">
+        </div>
+        <h3 class="direction-card__title">Дом</h3>
+        <p class="direction-card__desc">Ремонт и отделка частных домов</p>
+      </a>
+      <a href="commercial.html" class="direction-card">
+        <div class="direction-card__icon">
+          <img src="img/icon-cafe.png" alt="Коммерция">
+        </div>
+        <h3 class="direction-card__title">Коммерция</h3>
+        <p class="direction-card__desc">Ремонт магазинов, ресторанов, ТРЦ</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- О компании -->
+<section class="about">
+  <div class="container">
+    <div class="about__inner">
+      <div class="about__content">
+        <h2 class="section-title">О компании</h2>
+        <p class="about__text">Мы - профессиональная строительная компания с 10-летним опытом работы на рынке. Наша миссия - создавать комфортное и качественное пространство для жизни и работы.</p>
+        <p class="about__text">В работе используем только проверенные материалы от ведущих производителей. Все наши сотрудники - квалифицированные специалисты с профильным образованием.</p>
+        <div class="about__features">
+          <div class="feature">
+            <span class="feature__number">10+</span>
+            <span class="feature__text">лет опыта</span>
+          </div>
+          <div class="feature">
+            <span class="feature__number">500+</span>
+            <span class="feature__text">реализованных проектов</span>
+          </div>
+          <div class="feature">
+            <span class="feature__number">5</span>
+            <span class="feature__text">лет гарантии</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__media">
+        <div class="about__certificates">
+          <img src="img/certificate.webp" alt="Сертификат">
+          <img src="img/licenses.jpg" alt="Лицензия">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Преимущества -->
+<section class="advantages">
+  <div class="container">
+    <h2 class="section-title">Наши преимущества</h2>
+    <div class="advantages__grid">
+      <div class="advantage">
+        <div class="advantage__icon">
+          <img src="img/key.png" alt="Под ключ">
+        </div>
+        <h3 class="advantage__title">Работа под ключ</h3>
+        <p class="advantage__desc">От проекта до финальной уборки - все в одних руках</p>
+      </div>
+      <div class="advantage">
+        <div class="advantage__icon">
+          <img src="img/warranty.png" alt="Гарантия">
+        </div>
+        <h3 class="advantage__title">Гарантия 5 лет</h3>
+        <p class="advantage__desc">Устранение любых недостатков за наш счет</p>
+      </div>
+      <div class="advantage">
+        <div class="advantage__icon">
+          <img src="img/document.png" alt="Смета">
+        </div>
+        <h3 class="advantage__title">Смета за 24 часа</h3>
+        <p class="advantage__desc">Быстрый расчет стоимости без лишних затрат</p>
+      </div>
+      <div class="advantage">
+        <div class="advantage__icon">
+          <img src="img/material.png" alt="Материалы">
+        </div>
+        <h3 class="advantage__title">Свои материалы</h3>
+        <p class="advantage__desc">Прямые поставки от производителей без наценок</p>
+      </div>
+      <div class="advantage">
+        <div class="advantage__icon">
+          <img src="img/builder.png" alt="Команда">
+        </div>
+        <h3 class="advantage__title">Профессиональная команда</h3>
+        <p class="advantage__desc">Опытные мастера с профильным образованием</p>
+      </div>
+      <div class="advantage">
+        <div class="advantage__icon">
+          <img src="img/time.png" alt="Сроки">
+        </div>
+        <h3 class="advantage__title">Соблюдение сроков</h3>
+        <p class="advantage__desc">Фиксированные сроки с финансовой ответственностью</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Галерея проектов -->
+<section class="portfolio">
+  <div class="container">
+    <h2 class="section-title">Наши работы</h2>
+    <div class="portfolio__filter">
+      <button class="filter-btn active" data-filter="all">Все работы</button>
+      <button class="filter-btn" data-filter="apartment">Квартиры</button>
+      <button class="filter-btn" data-filter="office">Офисы</button>
+      <button class="filter-btn" data-filter="house">Дома</button>
+      <button class="filter-btn" data-filter="commercial">Коммерция</button>
+    </div>
+    <div class="portfolio__grid">
+      <div class="portfolio-item" data-category="apartment">
+        <img src="img/flat1.jpg" alt="Ремонт квартиры">
+        <div class="portfolio-item__overlay">
+          <h3>Ремонт квартиры 85 м²</h3>
+          <p>ЖК "Престижный", Москва</p>
+          <button class="btn btn-small view-project">Подробнее</button>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="office">
+        <img src="img/office3.jpg" alt="Ремонт офиса">
+        <div class="portfolio-item__overlay">
+          <h3>Ремонт офиса 120 м²</h3>
+          <p>БЦ "Деловой", Москва</p>
+          <button class="btn btn-small view-project">Подробнее</button>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="house">
+        <img src="img/house.webp" alt="Ремонт дома">
+        <div class="portfolio-item__overlay">
+          <h3>Ремонт коттеджа 250 м²</h3>
+          <p>КП "Зеленые холмы", Московская обл.</p>
+          <button class="btn btn-small view-project">Подробнее</button>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="commercial">
+        <img src="img/cafe.webp" alt="Ремонт кафе">
+        <div class="portfolio-item__overlay">
+          <h3>Ремонт кафе 150 м²</h3>
+          <p>ТРЦ "Галерея", Москва</p>
+          <button class="btn btn-small view-project">Подробнее</button>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="apartment">
+        <img src="img/flat2.jpg" alt="Ремонт квартиры">
+        <div class="portfolio-item__overlay">
+          <h3>Ремонт квартиры 65 м²</h3>
+          <p>ЖК "Современный", Москва</p>
+          <button class="btn btn-small view-project">Подробнее</button>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="office">
+        <img src="img/office1.webp" alt="Ремонт офиса">
+        <div class="portfolio-item__overlay">
+          <h3>Ремонт офиса 80 м²</h3>
+          <p>БЦ "Столичный", Москва</p>
+          <button class="btn btn-small view-project">Подробнее</button>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio__more">
+      <a href="#" class="btn">Смотреть больше работ</a>
+    </div>
+  </div>
+</section>
+
+<!-- Отзывы -->
+<section class="reviews">
+  <div class="container">
+    <h2 class="section-title">Отзывы наших клиентов</h2>
+    <div class="reviews-slider">
+      <div class="review">
+        <div class="review__header">
+          <div class="review__author">
+            <img src="img/icon-avatar.png" alt="Александр">
+            <div>
+              <h4>Александр</h4>
+              <span>Ремонт квартиры</span>
+            </div>
+          </div>
+          <div class="review__rating">★★★★★</div>
+        </div>
+        <div class="review__content">
+          <p>Обратился в компанию для ремонта 3-комнатной квартиры. Работой очень доволен! Все сделали качественно, в срок, без переплат. Особенно порадовало, что не пришлось ни за чем бегать - все материалы закупили сами, привезли, даже мусор вывезли. Рекомендую!</p>
+        </div>
+        <div class="review__date">12 мая 2023</div>
+      </div>
+      <div class="review">
+        <div class="review__header">
+          <div class="review__author">
+            <img src="img/icon-avatar.png" alt="Елена">
+            <div>
+              <h4>Елена</h4>
+              <span>Ремонт офиса</span>
+            </div>
+          </div>
+          <div class="review__rating">★★★★★</div>
+        </div>
+        <div class="review__content">
+          <p>Делали ремонт в новом офисе. Так как мы работаем с клиентами, было важно сделать все быстро и качественно. Команда справилась на отлично! Уложились в жесткие сроки, несмотря на сложную планировку. После завершения работ еще полгода наблюдали за офисом - никаких нареканий!</p>
+        </div>
+        <div class="review__date">3 апреля 2023</div>
+      </div>
+      <div class="review">
+        <div class="review__header">
+          <div class="review__author">
+            <img src="img/icon-avatar.png" alt="Дмитрий">
+            <div>
+              <h4>Дмитрий</h4>
+              <span>Ремонт дома</span>
+            </div>
+          </div>
+          <div class="review__rating">★★★★☆</div>
+        </div>
+        <div class="review__content">
+          <p>Строили дом под ключ в Подмосковье. Процесс занял больше времени, чем планировали из-за погодных условий, но компания компенсировала это скидкой. Качество работ на высоком уровне, все коммуникации работают исправно. Единственное - немного затянули с финальной уборкой.</p>
+        </div>
+        <div class="review__date">21 марта 2023</div>
+      </div>
+    </div>
+    <div class="reviews__more">
+      <div id="yandex-reviews-widget"></div>
+      <a href="#" class="btn btn-outline">Читать все отзывы</a>
+    </div>
+  </div>
+</section>
+
+<!-- Форма заявки -->
+<section class="request">
+  <div class="container">
+    <div class="request__inner">
+      <div class="request__content">
+        <h2 class="section-title">Рассчитайте стоимость ремонта</h2>
+        <p class="request__text">Оставьте заявку и получите бесплатный расчет стоимости ремонта в течение 24 часов. Наш специалист свяжется с вами для уточнения деталей.</p>
+      </div>
+      <div class="request__form">
+        <form id="request-form">
+          <div class="form-group">
+            <input type="text" placeholder="Ваше имя" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Телефон" required>
+          </div>
+          <div class="form-group">
+            <select>
+              <option value="" disabled selected>Тип ремонта</option>
+              <option value="apartment">Квартира</option>
+              <option value="office">Офис</option>
+              <option value="house">Дом</option>
+              <option value="commercial">Коммерция</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-large">Отправить заявку</button>
+          <div class="form-agree">
+            <input type="checkbox" id="agree" checked required>
+            <label for="agree">Я согласен на обработку персональных данных</label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Контакты -->
+<section class="contacts" id="contacts">
+  <div class="container">
+    <h2 class="section-title">Контакты</h2>
+    <div class="contacts__inner">
+      <div class="contacts__info">
+        <div class="contact-item">
+          <div class="contact-item__icon">
+            <img src="img/phone12.png" alt="Телефон">
+          </div>
+          <div class="contact-item__content">
+            <h4>Телефон</h4>
+            <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">
+            <img src="img/mail.png" alt="Email">
+          </div>
+          <div class="contact-item__content">
+            <h4>Email</h4>
+            <a href="mailto:info@stroycompany.ru">info@stroycompany.ru</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">
+            <img src="img/adres.png" alt="Адрес">
+          </div>
+          <div class="contact-item__content">
+            <h4>Адрес</h4>
+            <span>г. Москва, ул. Строителей, д. 15, офис 42</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">
+            <img src="img/watch1.png" alt="Время работы">
+          </div>
+          <div class="contact-item__content">
+            <h4>Время работы</h4>
+            <span>Пн-Пт: 9:00 - 18:00</span>
+            <span>Сб: 10:00 - 15:00</span>
+            <span>Вс: выходной</span>
+          </div>
+        </div>
+        <div class="contacts__social">
+          <a href="#"><img src="img/vk.png" alt="VK"></a>
+          <a href="#"><img src="img/telegram.png" alt="Telegram"></a>
+          <a href="#"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+          <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+        </div>
+      </div>
+      <div class="contacts__map">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1234567890abcdef&amp;source=constructor" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Подвал -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <a href="index.html" class="footer-logo">
+          <img src="images/logo-white.png" alt="Строительная компания">
+        </a>
+        <p class="footer__text">Профессиональный ремонт и отделка помещений любой сложности под ключ с гарантией 5 лет.</p>
+        <div class="footer__copyright">© 2023 Строительная компания. Все права защищены.</div>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Услуги</h4>
+        <ul class="footer__menu">
+          <li><a href="apartment.html">Ремонт квартир</a></li>
+          <li><a href="office.html">Ремонт офисов</a></li>
+          <li><a href="house.html">Ремонт домов</a></li>
+          <li><a href="commercial.html">Коммерческая недвижимость</a></li>
+          <li><a href="#">Дизайн интерьера</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Компания</h4>
+        <ul class="footer__menu">
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">Портфолио</a></li>
+          <li><a href="#">Блог</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title">Контакты</h4>
+        <ul class="footer__contacts">
+          <li><a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
+          <li><a href="mailto:info@stroycompany.ru">info@stroycompany.ru</a></li>
+          <li>г. Москва, ул. Строителей, д. 15</li>
+        </ul>
+        <button class="btn callback-btn">Обратный звонок</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Попап обратного звонка -->
+<div class="modal" id="callback-modal">
+  <div class="modal__content">
+    <button class="modal__close">&times;</button>
+    <h3 class="modal__title">Обратный звонок</h3>
+    <form class="modal__form">
+      <div class="form-group">
+        <input type="text" placeholder="Ваше имя" required>
+      </div>
+      <div class="form-group">
+        <input type="tel" placeholder="Телефон" required>
+      </div>
+      <button type="submit" class="btn">Заказать звонок</button>
+      <div class="form-agree">
+        <input type="checkbox" id="modal-agree" checked required>
+        <label for="modal-agree">Я согласен на обработку персональных данных</label>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Попап скидки -->
+<div class="modal" id="discount-modal">
+  <div class="modal__content">
+    <button class="modal__close">&times;</button>
+    <div class="discount-badge">-10%</div>
+    <h3 class="modal__title">Скидка 10% новым клиентам!</h3>
+    <p class="modal__text">Оставьте заявку прямо сейчас и получите скидку 10% на все виды ремонтных работ.</p>
+    <form class="modal__form">
+      <div class="form-group">
+        <input type="text" placeholder="Ваше имя" required>
+      </div>
+      <div class="form-group">
+        <input type="tel" placeholder="Телефон" required>
+      </div>
+      <button type="submit" class="btn">Получить скидку</button>
+      <div class="form-agree">
+        <input type="checkbox" id="discount-agree" checked required>
+        <label for="discount-agree">Я согласен на обработку персональных данных</label>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</body>
+</html>
+</body>
+</html>
